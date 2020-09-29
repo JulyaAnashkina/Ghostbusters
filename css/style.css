@@ -12,8 +12,8 @@ body {
   margin: auto;
 }
 .no-scroll {
-  position:relative;
-  overflow: hidden;
+  position:relative; 
+  overflow-x: hidden;
 }
 button {
   outline: none;
