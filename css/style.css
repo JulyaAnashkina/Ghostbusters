@@ -578,7 +578,7 @@ input::-webkit-search-results-decoration {
     display: none;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     position: fixed;
     left: 0;
     top: 65px;
@@ -589,6 +589,7 @@ input::-webkit-search-results-decoration {
   }
   .m-menu.active {
     display: flex;
+    overflow: scroll;
   }
   .menu-line.active {
     display: none;
@@ -614,7 +615,8 @@ input::-webkit-search-results-decoration {
   .navigation {
     display: block;
     margin: 0;
-    margin-top: 100px;
+    margin-top: 130px;
+    margin-bottom: 66px;
     display: flex;
     flex-direction: column;
     align-items: center;
