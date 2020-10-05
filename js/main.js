@@ -7,6 +7,7 @@ $(document).ready(function () {
         $('.menu-line').toggleClass('active');
         $('.arrow').toggleClass('active');
         $('body').toggleClass('no-scroll');
+        $('html').toggleClass('no-scroll');
         $('.main').toggleClass('no-visible');
     });
 
