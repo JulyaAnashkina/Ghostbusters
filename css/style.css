@@ -12,6 +12,7 @@ body {
   margin: auto;
 }
 .no-scroll {
+  overflow: hidden;
   position:relative; 
   overflow-x: hidden;
 }
