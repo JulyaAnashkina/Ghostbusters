@@ -7,6 +7,7 @@ $(document).ready(function () {
         $('.menu-line').toggleClass('active');
         $('.arrow').toggleClass('active');
         $('body').toggleClass('no-scroll');
+        $('.main').toggleClass('no-visible');
     });
 
     tab.on('click', function () {
