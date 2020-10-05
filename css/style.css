@@ -13,8 +13,11 @@ body {
 }
 .no-scroll {
   overflow: hidden;
-  position:relative; 
+  position: relative;
   overflow-x: hidden;
+}
+.no-visible {
+  display: none;
 }
 button {
   outline: none;
