@@ -575,6 +575,14 @@ input::-webkit-search-results-decoration {
     padding-right: 5%;
     padding-left: 5%;
     height: 65px;
+
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .main {
+    margin-top: 65px;
   }
   .header-logo:after {
     display: none;
