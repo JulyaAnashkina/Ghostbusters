@@ -576,10 +576,11 @@ input::-webkit-search-results-decoration {
     padding-left: 5%;
     height: 65px;
 
-    position: relative;
+    position: fixed;
     top: 0;
     justify-content: space-between;
     width: 100%;
+    background-color: white;
   }
   .main {
     margin-top: 65px;
