@@ -576,7 +576,7 @@ input::-webkit-search-results-decoration {
     padding-left: 5%;
     height: 65px;
 
-    position: fixed;
+    position: relative;
     top: 0;
     justify-content: space-between;
     width: 100%;
